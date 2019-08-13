@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ToDoForm from './components/ToDoForm';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         hello there
 
       </header>
+      <ToDoForm />
     </div>
   );
 }
